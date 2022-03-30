@@ -129,6 +129,9 @@
   <data name="ErrorMessage" xml:space="preserve">
     <value>Error Message</value>
   </data>
+  <data name="ExceptedOutput" xml:space="preserve">
+    <value>Rover Output</value>
+  </data>
   <data name="MessageAnotherRoute" xml:space="preserve">
     <value>Is there another rover ? (Y/N) :</value>
   </data>

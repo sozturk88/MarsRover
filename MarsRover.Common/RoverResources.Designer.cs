@@ -97,6 +97,15 @@ namespace MarsRover.Common {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Rover Output.
+        /// </summary>
+        public static string ExceptedOutput {
+            get {
+                return ResourceManager.GetString("ExceptedOutput", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Is there another rover ? (Y/N) :.
         /// </summary>
         public static string MessageAnotherRoute {

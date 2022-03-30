@@ -59,6 +59,7 @@ namespace MarsRover.Models.Observers
             {
                 _workingArea.SetRoverPointTable(castedSubject.Position);
                 _workingArea.DrawTable();
+                Console.WriteLine($"{RoverResources.ExceptedOutput} : {castedSubject.Position.ToString()}");
             }
 
             castedSubject.ChangeState(Enums.MoveStates.Standing);
