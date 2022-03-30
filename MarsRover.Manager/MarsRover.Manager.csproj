@@ -9,7 +9,6 @@
     <ProjectReference Include="..\MarsRover.Common\MarsRover.Common.csproj" />
     <ProjectReference Include="..\MarsRover.Infrastructures\MarsRover.Infrastructures.csproj" />
     <ProjectReference Include="..\MarsRover.Models\MarsRover.Models.csproj" />
-    <ProjectReference Include="..\MarsRover.Repository\MarsRover.Infrastructures.csproj" />
   </ItemGroup>
 
 </Project>
