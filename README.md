@@ -57,49 +57,6 @@ docker run --name rovercontainer roverimage
 docker container attach rovercontainer
 
 ## Example
-### Each step draws table, position and direction for each rover
-Working Area Size (X Y) :5 5
+### Each command draws table, position and direction for each rover
 
-┌──┬──┬──┬──┬──┐
-│  │  │  │  │  │
-├──┼──┼──┼──┼──┤
-│  │  │  │  │  │
-├──┼──┼──┼──┼──┤
-│  │  │  │  │  │
-├──┼──┼──┼──┼──┤
-│  │  │  │  │  │
-├──┼──┼──┼──┼──┤
-│  │  │  │  │  │
-└──┴──┴──┴──┴──┘
-
-New Rover Position (X Y D) :3 3 N
-
-┌──┬──┬───┬──┬──┐
-│  │  │   │  │  │
-├──┼──┼───┼──┼──┤
-│  │  │   │  │  │
-├──┼──┼───┼──┼──┤
-│  │  │ N │  │  │
-├──┼──┼───┼──┼──┤
-│  │  │   │  │  │
-├──┼──┼───┼──┼──┤
-│  │  │   │  │  │
-└──┴──┴───┴──┴──┘
-
-Rover Command (LLMRMMRMLM) :MMRM
-
-┌──┬──┬──┬───┬──┐
-│  │  │  │ E │  │
-├──┼──┼──┼───┼──┤
-│  │  │  │   │  │
-├──┼──┼──┼───┼──┤
-│  │  │  │   │  │
-├──┼──┼──┼───┼──┤
-│  │  │  │   │  │
-├──┼──┼──┼───┼──┤
-│  │  │  │   │  │
-└──┴──┴──┴───┴──┘
-
-Do you want to change a rover position ? (Y/N) : N
-
-Is there another rover ? (Y/N) :
+![alt text](https://github.com/sozturk88/MarsRover/blob/main/Example.jpg?raw=true)
